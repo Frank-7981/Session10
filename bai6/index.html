@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function soNguyenDuong(so) {
+            if (so > 0) {
+                return true;
+            } else if (so === 0) {
+                return 0;
+            } else {
+                return false;
+            }
+        }
+
+        let so1 = 5;
+        let so2 = -5;
+        let so3 = 0;
+
+        let ketQua1 = soNguyenDuong(so1);
+        let ketQua2 = soNguyenDuong(so2);
+        let ketQua3 = soNguyenDuong(so3);
+
+        console.log(`so1 là số nguyên dương: ${ketQua1}`);
+        console.log(`so2 là số nguyên dương: ${ketQua2}`);
+        console.log(`so3 là số nguyên dương: ${ketQua3}`);
+
+    </script>
+</body>
+
+</html>

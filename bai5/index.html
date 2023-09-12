@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function soNguyenNhoNhat(x, y, z) {
+            let soNhoNhat = x;
+            if (soNhoNhat > y) {
+                soNhoNhat = y;
+            }
+            if (soNhoNhat > z) {
+                soNhoNhat = z;
+            }
+            return soNhoNhat;
+        }
+
+        let a = 100;
+        let b = 200;
+        let c = 50;
+
+        let ketQua = soNguyenNhoNhat(a, b, c);
+        console.log(`Số nguyên nhỏ nhất là: ${ketQua}`);
+
+    </script>
+</body>
+
+</html>
